@@ -43,6 +43,8 @@ fn main() {
             combination,
             code_size,
             size = SBLOCK_WIDTH + 1
-        ).as_bytes(),
-    ).unwrap();
+        )
+        .as_bytes(),
+    )
+    .unwrap();
 }

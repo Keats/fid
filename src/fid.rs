@@ -7,7 +7,7 @@ pub trait FID {
     fn is_empty(&self) -> bool {
         self.len() == 0
     }
-    
+
     /// Compute the number of bits in [0..i).
     fn rank(&self, b: bool, i: u64) -> u64 {
         if b {
