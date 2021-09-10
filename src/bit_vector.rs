@@ -130,6 +130,11 @@ impl BitVector {
         }
     }
 
+    /// How many bits have been set
+    pub fn count_ones(&self) -> u64 {
+        self.ones
+    }
+
     /// Returns the total size of the bit vector.
     pub fn size(&self) -> usize {
         mem::size_of::<Self>()
